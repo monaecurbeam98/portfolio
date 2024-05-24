@@ -1,0 +1,93 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    width: 100%;
+    min-height: 100vh;
+    
+  }
+  
+  
+  
+  .nav-bar{
+    display: flex;
+    justify-content: space-between;
+  }
+  li{
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+  }
+  h2{
+    text-align: center;
+  }
+  .about{
+    margin-top: 40px;
+  }
+  
+  .work{
+    margin-top: 40px;
+  }
+  
+ 
+  .about-hero-section{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .project-card{
+    border: solid 1px black;
+    text-align: center;
+  }
+  
+  .project-card-container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .contact-links{
+    margin-top: 10px;
+    text-align: center;
+  }
+  img{
+    height: 30px;
+    width: 30px;
+  }
+
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+#contactForm{
+  
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+  
